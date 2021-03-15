@@ -1,0 +1,21 @@
+<BsNavbar as |navbar|>
+  <div class="navbar-header">
+    <navbar.toggle />
+    <a class="navbar-brand" href="#">Grab Bag</a>
+  </div>
+  <navbar.content>
+    <navbar.nav as |nav|>
+      <nav.item>
+        <nav.linkTo @route="index">Home</nav.linkTo>
+      </nav.item>
+      <nav.item>
+        <nav.linkTo @route="about">About</nav.linkTo>
+      </nav.item>
+      <nav.item>
+        <nav.linkTo @route="log-in">Log In</nav.linkTo>
+      </nav.item>
+    </navbar.nav>
+  </navbar.content>
+</BsNavbar>
+
+<h2>Log in</h2>

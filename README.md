@@ -1,7 +1,6 @@
 # grab-bag
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+App to connect customers and restaurants to reduce food waste, help restaurant customers save money, and help restuarants reduce losses. This app will allow restaurants to indicate that they have a dish available and set the price. Customers will be able to see that a restaurant has a dish available as well as the price, and decide if they want to order it.
 
 ## Prerequisites
 
