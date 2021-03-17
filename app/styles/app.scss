@@ -1,2 +1,16 @@
 
 @import "ember-bootstrap/bootstrap";
+body {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.card {
+    color: blue;
+}
+
+.deck {
+    display: flex;
+    justify-content:space-evenly;
+}
+

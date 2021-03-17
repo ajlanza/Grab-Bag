@@ -1,0 +1,14 @@
+<div class="card" style="width: 18rem;">
+  <img class="card-img-top" src="{{@restaurant.image}}" alt="Restaurant Facade">
+    <div class="card-body">
+      <h5 class="card-title">{{@restaurant.title}}</h5>
+      <p class="card-text">${{@restaurant.price}}</p>
+      <p class="card-text">{{@restaurant.cuisine}}</p>
+      <p class="card-text">{{@restaurant.description}}</p>
+      {{#if @restaurant.vegetarian}}
+        <p class="card-text">Vegetarian</p>
+      {{/if}}
+
+      <a href="#" class="btn btn-primary">Order</a>
+    </div>
+</div>

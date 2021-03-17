@@ -1,0 +1,113 @@
+{
+    "data": [
+      {
+        "type": "restaurants",
+        "id": "el-charro",
+        "attributes": {
+          "title": "El Charro",
+          "city": "Albany",
+          "location": {
+            "lat": 37.7749,
+            "lng": -122.4194
+          },
+          "image": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Crane_estate_(5).jpg",
+          "description": "Established in 1950 and a staple in the local community ever since. Featuring rotating weekly specials.",
+          "cuisine": "Mexican",
+          "price": 12.01,
+          "alergens": {
+            "dairy": false,
+            "eggs": false,
+            "nuts": false,
+            "peanuts": false,
+            "shellfish": false,
+            "fish": false,
+            "soy": false,
+            "wheat": false
+        },
+        "vegetarian": true
+        }
+      },
+      {
+        "type": "restaurants",
+        "id": "pizza-palace",
+        "attributes": {
+          "title": "Pizza Palace",
+          "city": "Troy",
+          "location": {
+            "lat": 37.7749,
+            "lng": -122.4194
+          },
+          "image": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Alfonso_13_Highrise_Tegucigalpa.jpg",
+          "description": "We specialize in pizza and wings. Try one of our pasta dishes or home made desserts as well.",
+          "cuisine": "Pizza",
+          "price": 10.00,
+          "alergens": {
+            "dairy": false,
+            "eggs": false,
+            "nuts": false,
+            "peanuts": false,
+            "shellfish": false,
+            "fish": false,
+            "soy": false,
+            "wheat": false
+        },
+        "vegetarian": true
+        }
+      },
+      {
+        "type": "restaurants",
+        "id": "pints-and-quarts",
+        "attributes": {
+          "title": "Pints and Quarts",
+          "city": "Schenectady",
+          "location": {
+            "lat": 37.7749,
+            "lng": -122.4194
+          },
+          "image": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Wheeldon_Apartment_Building_-_Portland_Oregon.jpg",
+          "description": "Enjoy a quart of our delicious asian cuisine and pair it with a pint of your choice. All dishes made fresh to order.",
+          "cuisine": "Asian",
+          "price": 15.00,
+          "alergens": {
+              "dairy": false,
+              "eggs": false,
+              "nuts": false,
+              "peanuts": false,
+              "shellfish": false,
+              "fish": false,
+              "soy": false,
+              "wheat": false
+          },
+          "vegetarian": false
+        }
+      },
+      {
+        "type": "restaurants",
+        "id": "bait-box",
+        "attributes": {
+          "title": "Bait Box",
+          "city": "Saratoga",
+          "location": {
+            "lat": 37.7749,
+            "lng": -122.4194
+          },
+          "image": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Crane_estate_(5).jpg",
+          "description": "Our ingrediants are sourced daily from the harbor. Please check out our menu daily as it is constantly changing depending on the catch.",
+          "cuisine": "Seafood",
+          "price": 13.00,
+          "fullPrice": 26.00,
+          "alergens": {
+            "dairy": false,
+            "eggs": false,
+            "nuts": false,
+            "peanuts": false,
+            "shellfish": false,
+            "fish": false,
+            "soy": false,
+            "wheat": false
+        },
+        "vegetarian": false
+        }
+      }
+    ]
+  }
